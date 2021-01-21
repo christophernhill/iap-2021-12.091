@@ -6,7 +6,7 @@ Files:
 
  - diffusion1d.ipynb
  
-    A simple serial example of 1d diffusion equation.
+    A simple serial example of 1d diffusion equation. 
  
  - step1.py
  
