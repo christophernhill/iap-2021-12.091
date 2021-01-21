@@ -24,9 +24,11 @@ Files:
  - step3.py
  
     Introduces code that divides the indices of a global vector into
-    local blocks of indices split over ranks.
+    local blocks of indices split over ranks with halo.
  
  - step4.py
+ 
+   Introduces send and receive of halo region for a divided vector. 
  
  - step5.py
  
