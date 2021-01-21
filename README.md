@@ -32,5 +32,8 @@ Files:
  
  - step5.py
  
+  Initializes a distributed array based on global spatial coordinate that each MPI 
+  rank is working on.
+ 
  - step6.py
 
