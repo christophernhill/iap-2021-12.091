@@ -37,3 +37,5 @@ Files:
  
  - step6.py
 
+ Add in time-stepping loop that computes time derivatives and updates halo points at
+ each time step. 
