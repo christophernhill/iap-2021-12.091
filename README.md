@@ -23,6 +23,9 @@ Files:
 
  - step3.py
  
+    Introduces code that divides the indices of a global vector into
+    local blocks of indices split over ranks.
+ 
  - step4.py
  
  - step5.py
