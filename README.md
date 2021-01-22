@@ -73,7 +73,7 @@ Files:
        login-2:~$ LLsub -i -N 2 -n 20
        ```
        
-       both these will request a session with two physical nodes and 20 total
+       either of the above commands will request a session with two physical nodes and 20 total
        _task slots_. The task slots will be divided evenly between the nodes 
        so that an MPI program will created 10 ranks on each node by default. 
        
