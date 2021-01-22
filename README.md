@@ -67,6 +67,12 @@ Files:
         login-2:~$ srun -N 2 -n 20 -I --pty /bin/bash
        ```
        
+        or
+        
+       ```
+         login-2:~$ LLsub -i -N 2 -n 20
+       ```
+       
     2. From within interactive session
     
        ```
