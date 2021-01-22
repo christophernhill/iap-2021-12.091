@@ -70,7 +70,7 @@ Files:
        mpirun ./step1.py
        ```
        
-   Example of parallel run
+  - Example of parallel run
    
    ```
    login-2$ srun -N 2 -n 20 -I --pty /bin/bash   
