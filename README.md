@@ -42,11 +42,16 @@ Files:
  
 # To run on TXE1
 
+  - Download code from gtihub from login node
+    ```
+    login-2$ git clone https://github.com/christophernhill/iap-2021-12.091.git
+    ```
+    
   - To run serial code in __diffusion1d.ipynb__ 
   
     Runs within notebook after installing python celluloid package.
     
-    For now, to install celluloid do this once.
+    For now, to install celluloid, do this once.
     1. Open terminal from within notebook
     2. from terminal login to front end node e.g. `ssh login-2`
     3. on login node run the following two commands
