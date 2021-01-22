@@ -55,5 +55,50 @@ Files:
              pip install --user celluloid
           ```
           
+  - To run parallel MPI codes (__step1.py__ - __step6.py__)
+  
+    1. From login node start an interactive session, for example
+       ```
+        login-2:~$ srun -N 2 -n 20 -I --pty /bin/bash
+       ```
+       
+    2. From within interactive session
+    
+       ```
+       module load anaconda/2020b
+       module load mpi
+       mpirun ./step1.py
+       ```
+       
+   Example of parallel run
+   
+   ```
+   login-2$ srun -N 2 -n 20 -I --pty /bin/bash   
+   d-12-16-2$ module load anaconda/2020b
+   d-12-16-2$ module load mpi
+   d-12-16-2$ mpirun ./step1.py
+I am rank    0 of 20 executing on d-12-16-2
+I am rank    2 of 20 executing on d-12-16-2
+I am rank    3 of 20 executing on d-12-16-2
+I am rank    4 of 20 executing on d-12-16-2
+I am rank    5 of 20 executing on d-12-16-2
+I am rank    6 of 20 executing on d-12-16-2
+I am rank    7 of 20 executing on d-12-16-2
+I am rank    8 of 20 executing on d-12-16-2
+I am rank    9 of 20 executing on d-12-16-2
+I am rank    1 of 20 executing on d-12-16-2
+I am rank   10 of 20 executing on d-13-1-1
+I am rank   11 of 20 executing on d-13-1-1
+I am rank   12 of 20 executing on d-13-1-1
+I am rank   13 of 20 executing on d-13-1-1
+I am rank   14 of 20 executing on d-13-1-1
+I am rank   15 of 20 executing on d-13-1-1
+I am rank   16 of 20 executing on d-13-1-1
+I am rank   17 of 20 executing on d-13-1-1
+I am rank   18 of 20 executing on d-13-1-1
+I am rank   19 of 20 executing on d-13-1-1
+
+   ```
+          
   
    
